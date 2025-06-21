@@ -1,21 +1,3 @@
-/*
- * Arduino Casino Game System with Complete Blackjack Implementation
- * 
- * Hardware:
- * - Arduino Uno
- * - 16x2 LCD Display (16-pin parallel)
- * - 1x Joystick module (VRX, VRY, SW pins)
- * - 4x Push buttons
- * 
- * Pin Configuration:
- * - LCD: RS(12), E(11), D4(5), D5(4), D6(3), D7(2)
- * - Joystick: VRX (A0), VRY (A1), SW (6)
- * - Button 1 (Select): Pin 7
- * - Button 2 (Back): Pin 8
- * - Button 3 (Action 1): Pin 9
- * - Button 4 (Action 2): Pin 10
- */
-
 #include <LiquidCrystal.h>
 #include <EEPROM.h>
 
@@ -903,7 +885,7 @@ void showGameResult() {
   }
 }
 
-// ==================== PLACEHOLDER GAMES ====================
+// ==================== PLACEHOLDER POKER ====================
 
 void playPoker() {
   lcd.clear();
